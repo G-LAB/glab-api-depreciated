@@ -37,10 +37,10 @@
 $active_group = "cms";
 $active_record = TRUE;
 
-$db['cms']['hostname'] = "internal-db.s91576.gridserver.com";
-$db['cms']['username'] = "db91576";
-$db['cms']['password'] = "KsQXughkwjhZGqNIIqrbUzDnwyI9eQcnzZQLiqKQfC9HrvRxWr";
-$db['cms']['database'] = "db91576_glab_cms";
+$db['cms']['hostname'] = "localhost";
+$db['cms']['username'] = "glab_cms";
+$db['cms']['password'] = "fWGe6T8XjZAZXb";
+$db['cms']['database'] = "glab_cms";
 $db['cms']['dbdriver'] = "mysql";
 $db['cms']['dbprefix'] = "";
 $db['cms']['pconnect'] = TRUE;
@@ -49,22 +49,6 @@ $db['cms']['cache_on'] = FALSE;
 $db['cms']['cachedir'] = "";
 $db['cms']['char_set'] = "utf8";
 $db['cms']['dbcollat'] = "utf8_general_ci";
-
-$db['api_glab']['hostname'] = "internal-db.s91576.gridserver.com";
-$db['api_glab']['username'] = "db91576";
-$db['api_glab']['password'] = "KsQXughkwjhZGqNIIqrbUzDnwyI9eQcnzZQLiqKQfC9HrvRxWr";
-$db['api_glab']['database'] = "db91576_api_glab";
-$db['api_glab']['dbdriver'] = "mysql";
-$db['api_glab']['dbprefix'] = "";
-$db['api_glab']['pconnect'] = TRUE;
-$db['api_glab']['db_debug'] = TRUE;
-$db['api_glab']['cache_on'] = FALSE;
-$db['api_glab']['cachedir'] = "";
-$db['api_glab']['char_set'] = "utf8";
-$db['api_glab']['dbcollat'] = "utf8_general_ci";
-
-
-
 
 /* End of file database.php */
 /* Location: ./system/application/config/database.php */
