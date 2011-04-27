@@ -12,7 +12,7 @@ class V1 extends REST_Controller
 		$this->load->model('agreement');
 		$data = $this->agreement->getLatest($this->get('id'));
 		
-		if ($data) $this->response($data, 200);
+		if (is_array($data)) $this->response($data, 200);
 		else $this->response(array('error' => 'Agreement not found.'), 404);
 	}
 	
